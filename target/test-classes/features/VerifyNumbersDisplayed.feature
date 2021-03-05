@@ -1,13 +1,13 @@
 @Test
-Feature: displayed numbers on contact page
+Feature: displayed numbers on about us page
 
   Background:
-    Given User should be on the Playtech home page
+    When User enter the Playtech url
     Then User on the Playtech - the source of success page
 
   Scenario: US2 AC1 verify displayed numbers
 
-    Given user enters following age information
+    When user enters following age information
       | day   | 12   |
       | month | 05   |
       | year  | 2000 |
@@ -25,7 +25,7 @@ Feature: displayed numbers on contact page
 
   Scenario: US2 AC2 verify displayed numbers
 
-    Given user enters following age information
+    When user enters following age information
       | day   | 12   |
       | month | 05   |
       | year  | 2000 |

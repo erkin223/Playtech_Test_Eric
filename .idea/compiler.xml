@@ -9,5 +9,8 @@
         <module name="Playtech_Test_Eric" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Playtech_Test_Eric" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

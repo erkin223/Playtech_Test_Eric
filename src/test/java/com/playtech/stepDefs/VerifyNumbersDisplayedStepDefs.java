@@ -18,8 +18,8 @@ public class VerifyNumbersDisplayedStepDefs {
 
     VerifyNumbersDisplayedWebElements verifyNumbersDisplayedWebElements=new VerifyNumbersDisplayedWebElements();
 
-    @Given("User should be on the Playtech home page")
-    public void user_should_be_on_the_Playtech_home_page() {
+    @Given("User enter the Playtech url")
+    public void user_enter_the_Playtech_url() {
 
         Driver.get().get(ConfigurationReader.get("url"));
 

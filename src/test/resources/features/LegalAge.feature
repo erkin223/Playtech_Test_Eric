@@ -1,9 +1,9 @@
-@age
+@Test
 
 Feature:
 
   Background:
-    Given User should be on the Playtech home page
+    When User enter the Playtech url
     Then User on the Playtech - the source of success page
 
   Scenario: US1 AC1 age functionality validation (happy path)
